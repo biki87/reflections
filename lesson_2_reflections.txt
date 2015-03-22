@@ -15,5 +15,20 @@ How can you use the staging area to make sure you have one commit per logical ch
 	I would only add to the staging area files that were changed is a single logical change, commit them, then add more
 	files that were changed in a different logical change, and so on.
 
-bla bla bla
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	For example, when I'm working on adding a new fearure, or an alternative version of my project. Branches would allow me to develop the new concept without changing the main project until it's fully developed. 
+
+How do the diagrams help you visualize the branch structure?
+
+	They allow me to see at which point each brach split from its parent branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result is a single branch, containing the changes from both branches. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	pros: Fast and efficient, systematic. 
+	cons: possibly prone to errors, can't resolve conflicts 
  
