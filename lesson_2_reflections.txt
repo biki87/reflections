@@ -3,3 +3,11 @@ What happens when you initialize a repository? Why do you need to do it?
 	A hidden .git directory is created under the current directory. This indicates that the current durectory is to
 	be version-controled using Git, and the directory will be used to store history and other meta data about this
 	directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is a place the concentrates files that should be tracked for changes. It can contain only a part
+	of the files on the working directory, and has no history yet, as opposed to files on the repository.
+	Its value is allowing the user to decide which files he wishes to track and add to the repository in future commits.
+
+ 
