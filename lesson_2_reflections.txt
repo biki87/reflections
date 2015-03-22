@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	A hidden .git directory is created under the current directory. This indicates that the current durectory is to
+	be version-controled using Git, and the directory will be used to store history and other meta data about this
+	directory.
