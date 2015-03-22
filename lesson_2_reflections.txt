@@ -10,4 +10,10 @@ How is the staging area different from the working directory and the repository?
 	of the files on the working directory, and has no history yet, as opposed to files on the repository.
 	Its value is allowing the user to decide which files he wishes to track and add to the repository in future commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	I would only add to the staging area files that were changed is a single logical change, commit them, then add more
+	files that were changed in a different logical change, and so on.
+
+bla bla bla
  
